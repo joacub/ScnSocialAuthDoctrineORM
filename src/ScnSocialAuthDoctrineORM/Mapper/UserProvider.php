@@ -6,9 +6,9 @@ use Hybrid_User_Profile;
 use ScnSocialAuth\Mapper\Exception;
 use ScnSocialAuth\Mapper\UserProviderInterface;
 use ScnSocialAuth\Options\ModuleOptions;
-use Zend\Stdlib\Hydrator\HydratorInterface;
-use ZfcBase\Mapper\AbstractDbMapper;
+use Zend\Hydrator\HydratorInterface;
 use ZfcUser\Entity\UserInterface;
+use ZfcUser\Mapper\AbstractDbMapper;
 
 class UserProvider extends AbstractDbMapper implements UserProviderInterface
 {
